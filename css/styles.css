@@ -1,158 +1,185 @@
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Ubuntu', sans-serif;*/
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  color: #fff;
+  background-color: #ff4d4d;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* TITLE */
-#title{
-  background-color: #ff4d4d;
-  color: #fff;
+#title .container-fluid {
+  padding: 3% 15% 6% 15%;
+  text-align: left;
 }
 
-.container1{
-  padding: 3% 15%;
+.navbar {
+  padding: 0 0 4.5rem 0;
 }
 
-h1{
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 1.1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.txt-label1 {
   line-height: 1.5;
   font-size: 3.5rem;
   font-weight: 900;
 }
 
-h2{
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-h3{
-  font-family: Montserrat, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-p{
-  color: #8f8f8f;
-  font-family: Montserrat, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.navbar{
-  padding: 0 0 4.5rem 0;
-}
-.navbar-brand{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 2rem;
-  font-weight: 500;
-}
-.nav-item{
-  padding: 0 1.1rem;
-}
-.nav-link{
-  font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-}
-
-.txt-label1{
-  /* margin: 4rem auto 2rem auto; */
-}
-.btn-download{
+.btn-download {
   margin: 2rem 1rem 3rem 0;
 }
-.img-title{
-  left:20%;
+
+.img-title {
+  left: 20%;
   position: absolute;
   width: 70%;
   z-index: 0;
 }
-/* .iphone-section{
-  text-align: right;
-} */
-@media (max-width: 992px) {
-  .container1{
-    padding: 3% 15% 40% 15%;
-  }
-  .iphone-section{
-    text-align: center;
-  }
-}
 
 /* FEATURES */
-#features{
-  background-color: #fff;
-  padding: 7% 15%;
+#features {
   position: relative;
   z-index: 1;
 }
-.div-features{
-    text-align: center;
-    padding: 4%
+
+.div-features {
+  padding: 4%
 }
-.txt-features{
-  font-family: Montserrat, sans-serif;
+
+.txt-features {
   font-size: 1.5rem;
   font-weight: 800;
 }
-.txt-features-desc{
+
+.txt-features-desc {
   color: #8f8f8f;
-  font-family: Montserrat, sans-serif;
   font-size: 1rem;
   font-weight: 400;
 }
-.icon-features{
+
+.icon-features {
   color: #ff8364;
   font-size: 4rem;
   margin-bottom: 1rem;
 }
-.icon-features:hover{
+
+.icon-features:hover {
   color: #ff4d4d;
 }
 
 /* TESTIMONIALS */
-#testimonials{
+#testimonials {
   background-color: #ff8364;
-  color: #fff;
-  text-align: center;
 }
-.carousel-item{
-  padding: 7% 15%;
-}
-.txt-testimonials{
-  font-family: "Montserrat", sans-serif;
+
+.carousel-item {}
+
+.txt-testimonials {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.5;
 }
-.img-testimonials{
+
+.img-testimonials {
   border-radius: 100%;
   width: 12%;
   margin: 1.25rem;
 }
 
 /* PRESS */
-#press{
+#press {
   background-color: #ff8364;
-  color: #fff;
   padding-bottom: 3%;
-  text-align: center;
 }
-.img-press{
+
+.img-press {
   width: 15%;
   margin: 1.25rem 1.25rem 3.125rem 0;
 }
 
 /* PRICING */
-#pricing{
+#pricing {
   padding: 6.25rem 15% 6.25rem 15%;
-  text-align: center;
 }
-.pricing-column{
+
+.pricing-column {
   padding: 3% 2%;
 }
-.txt-discount-desc{
+
+.txt-pricing-desc {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.txt-pricing-label {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.txt-pricing {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.txt-discount-desc {
   color: #ff4d4d;
   font-weight: 600;
+}
+
+/* CTA */
+.txt-cta {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* FOOTER */
+.img-social-icon {
+  margin: 1.25rem 0.8rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .container1 {
+    padding: 3% 15% 40% 15%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .img-title {
+    position: static;
+  }
 }
